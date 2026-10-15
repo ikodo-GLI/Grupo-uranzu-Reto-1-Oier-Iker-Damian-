@@ -1,0 +1,95 @@
+.letra{
+    color: white;
+}
+.body{
+    background-color: #242323;
+    font-family: barlow;
+}
+.red{
+    color: #9C1818;
+}
+.absolute{
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+.centro{
+    width: 50px;
+    height: 50px; 
+    background-color: #9C1818; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+}
+.fixed{
+    position: fixed;
+    to: 20px;
+    left: 20px;
+}
+.cabecero {
+display: flex; 
+align-items: center;
+top: 20px;
+left: 20px;
+}
+#cotH{
+    position:absolute; 
+    right: 5px ;
+    background-color: #9C1818;
+}
+#comoF{
+    position: absolute; 
+    right:240px;
+}
+#servicios{
+    position: absolute; 
+    right: 480px;
+}
+.button{
+    background-color: #9C1818;
+    color: white;
+    border: 1;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: barlow condensed;
+}
+.button:hover{
+    background-color: #5c0f0f;
+}
+.button2{
+    background-color: #242323;
+    color: white;
+    border: 1;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: barlow condensed;
+}
+.button2:hover{
+    background-color: #3a3838;
+}
+.line{
+    display: flex; 
+    justify-content: left; 
+    align-items: right;
+}
+.estadisticas-container {
+  display: flex;
+  gap: 50px; 
+  align-items: flex-start; 
+}
+.estadistica-item {
+  display: flex;
+  flex-direction: column; 
+  max-width: 150px; 
+}
+.proporcional{
+    background-color: #9C1818;
+    display: flex;
+    gap: 50px; 
+    align-items: flex-start; 
+    justify-content: space-evenly
+}
